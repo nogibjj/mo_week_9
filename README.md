@@ -1,12 +1,8 @@
 
-## Template for SQL projects 
+## Pyspark Notebook on Azure Databricks  
 
-Builds out a environment for working with SQL and includes a standard Python setup.
-Based from this .devcontainer:  https://github.com/microsoft/vscode-dev-containers/tree/main/containers/python-3-postgres
+This notebook is designed to analyze and visualize data using PySpark, Pandas, and Seaborn. It focuses on data manipulation exploratory data analysis (EDA) and visualization of various metrics related to website visitors, such as daily and monthly visitors, device categories, bounce rates, and more. The notebook uses PySpark for data manipulation and aggregation and Pandas with Seaborn for creating informative and visually appealing plots. It includes examples of bar plots, line plots, histograms, and box plots to gain insights from the data. This notebook serves as a practical guide for data analysis and visualization in a PySpark environment.
 
+## Video Link
 
-### Postgres Tutorial Documentation
-
-* [Getting Started Tutorial](https://www.postgresql.org/docs/current/tutorial-createdb.html)
-
-To run:  Use SQLTools extension and follow guide here:  https://github.com/microsoft/vscode-dev-containers/tree/main/containers/python-3-postgres
+## Link to the databrick notebook
