@@ -27,7 +27,7 @@ from pyspark.sql.window import Window
 from pyspark.sql import functions as F
 import matplotlib.pyplot as plt
 from pyspark.sql.functions import col
-
+import seaborn as sns
 # COMMAND ----------
 
 # create spark instance SparkSession
