@@ -27,9 +27,6 @@ from pyspark.sql.window import Window
 from pyspark.sql import functions as F
 import matplotlib.pyplot as plt
 from pyspark.sql.functions import col
-import seaborn as sns
-from IPython.display import display, HTML, display_html #usefull to display wide tables
-from pyspark_dist_explore import Histogram, hist, distplot, pandas_histogram
 
 # COMMAND ----------
 
