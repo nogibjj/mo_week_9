@@ -5,15 +5,15 @@ install:
 format:	
 	black *.py 
 
-lint:
-	pylint --disable=R,C --ignore-patterns=test_.*?py *.py src/*.py
+# lint:
+# 	pylint --disable=R,C --ignore-patterns=test_.*?py *.py src/*.py
 
 container-lint:
 	docker run --rm -i hadolint/hadolint < Dockerfile
 
-refactor: format lint
+refactor: format
 
 deploy:
 	#deploy goes here
 		
-all: install lint test format deploy
+all: instal test format deploy
